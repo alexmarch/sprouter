@@ -41,7 +41,7 @@ auto - Autorun routing default true
 
 watch - Watch change of routing and rebuild route path default true
 
-#### Routing structure
+### Routing structure
 
 ###### Directory structure
     /routers
