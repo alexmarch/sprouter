@@ -29,4 +29,7 @@ var Router = new SpRouter(app, {path: './routes', auto: true, watch: true});
 ...
 ```
 
-Where app is a instance of express ```javascript var app = express(); ```
+Where app is a instance of express 
+```javascript 
+var app = express(); 
+```
