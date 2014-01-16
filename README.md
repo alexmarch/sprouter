@@ -55,7 +55,7 @@ var router = {
 
     routes:{
         'get':{
-            'index': 'index',
+            '': 'index', //default route
             'hello/:params': 'hello'
         },
         'post':{
