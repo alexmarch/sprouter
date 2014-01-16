@@ -26,6 +26,8 @@
     "url": "https://github.com/alexmarch/sprouter/issues"
   },
   "homepage": "https://github.com/alexmarch/sprouter",
-  "dependencies":{},
+  "dependencies":{
+      "express": "3.4.7"
+  },
   "devDependencies":{}
 }
