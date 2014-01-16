@@ -43,6 +43,10 @@ watch - Watch change of routing and rebuild route path default true
 
 #### Routing structure
 
+###### Directory structure
+    /routers
+        |-index.js
+
 ```javascript
 
 var router = {
@@ -77,3 +81,4 @@ var router = {
 module.exports = router;
 
 ```
+
