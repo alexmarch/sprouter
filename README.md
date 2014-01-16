@@ -33,8 +33,47 @@ Where app is a instance of express
 ```javascript
 var app = express();
 ```
+{path: './routes', auto: true, watch: true}
+
 path - Path to the directory with routing files
 
 auto - Autorun routing default true
 
 watch - Watch change of routing and rebuild route path default true
+
+#### Routing structure
+
+```javascript
+
+var router = {
+
+    base: '/',
+
+    routes:{
+        'get':{
+            'index':"index",
+            'hello/:params': 'hello'
+        },
+        'post':{
+            'signin/':"signin"
+        }
+    },
+
+    index: function(req,res){
+        res.send("Welcome SpRouter !");
+    },
+
+    hello: function(req,res){
+        res.send("Hello :" + req.params.params);
+    },
+
+    //post
+    signin: function(req,res){
+        //write code here
+    }
+
+};
+
+module.exports = router;
+
+```
