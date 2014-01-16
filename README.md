@@ -55,11 +55,11 @@ var router = {
 
     routes:{
         'get':{
-            'index':"index",
+            'index': 'index',
             'hello/:params': 'hello'
         },
         'post':{
-            'signin/':"signin"
+            'signin/': 'signin'
         }
     },
 
