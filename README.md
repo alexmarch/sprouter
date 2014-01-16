@@ -34,5 +34,7 @@ Where app is a instance of express
 var app = express();
 ```
 path - Path to the directory with routing files
+
 auto - Autorun routing default true
+
 watch - Watch change of routing and rebuild route path default true
