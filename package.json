@@ -25,7 +25,7 @@
         "router"
     ],
     "author": "alexmarch",
-    "license": "BSD-2-Clause",
+    "license": "BSD",
     "bugs": {
         "url": "https://github.com/alexmarch/sprouter/issues"
     },
