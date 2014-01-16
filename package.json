@@ -1,0 +1,31 @@
+{
+  "name": "sprouter",
+  "version": "0.0.1",
+  "description": "Simple dynamic routing for expressjs",
+  "main": "./lib/sprouter.js",
+  "bin": {
+    "sprouter": "sprouter.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alexmarch/sprouter.git"
+  },
+  "keywords": [
+    "expressjs",
+    "routing",
+    "dynamic",
+    "routing",
+    "router"
+  ],
+  "author": "alexmarch",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/alexmarch/sprouter/issues"
+  },
+  "homepage": "https://github.com/alexmarch/sprouter",
+  "dependencies":{},
+  "devDependencies":{}
+}
